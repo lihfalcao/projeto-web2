@@ -1,9 +1,9 @@
 # projeto-web2
 Desenvolvimento de uma biblioteca virtual para armazenamento e controle dos livros/mangas/hqs lidos pela pessoa e seus avanços pessoais no ritmo de leitura.
 
-Link para o protótipo do wireframe pelo Figma modo de pre-visualização: https://www.figma.com/proto/hivjpcjDgZcpLn0geVnH9v/Born-to-Read?node-id=4%3A9&scaling=scale-down&page-id=1%3A2&starting-point-node-id=4%3A9
+Link para o protótipo do wireframe pelo Figma modo de pre-visualização: https://www.figma.com/proto/hivjpcjDgZcpLn0geVnH9v/Born-to-Read?node-id=4%3A13&scaling=scale-down&page-id=1%3A2&starting-point-node-id=4%3A9
 
-Link para o protótipo do wireframe pelo Figma modo navegação: https://www.figma.com/file/hivjpcjDgZcpLn0geVnH9v/Born-to-Read?node-id=1%3A2
+Link para o protótipo do wireframe pelo Figma modo navegação: https://www.figma.com/file/hivjpcjDgZcpLn0geVnH9v/Born-to-Read?node-id=4%3A13
 
 # Checkist
 
