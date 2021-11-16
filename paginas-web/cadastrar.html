@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/css/alertify.min.css">
+	<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="images/owl.png" />
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/login-cadastrar-style.css">
+	<!--===============================================================================================-->
+
+
+</head>
+
+<body>
+
+	<header class="top">
+		<div>
+			<img src="images/logo completo.png"></img>
+		</div>
+	</header>
+	<div class="limiter">
+		<div class="container-login">
+			<div class="wrap-login p-t-50 p-b-90">
+				<form class="login-form">
+
+					<div class="wrap-input m-b-16">
+						<input class="input" type="text" id="username" name="username" placeholder="Usuário"
+							onkeypress="validateChar(event)">
+						<span class="focus-input"></span>
+
+					</div>
+
+
+					<div class="wrap-input m-b-16">
+						<input class="input" type="password" id="pass" name="pass" placeholder="Senha"
+							onkeypress="validateChar(event)">
+						<span class="focus-input"></span>
+					</div>
+
+					<div class="wrap-input m-b-16">
+						<input class="input" type="password" id="pass2" name="pass" placeholder="Confirme a senha"
+							onkeypress="validateChar(event)">
+						<span class="focus-input"></span>
+					</div>
+
+				</form>
+				<div class="button-login">
+					<button class="button" onclick="validateSingUp()">
+						CADASTRAR
+					</button>
+				</div>
+				<div class="button-sing-up">
+					<button class="button" onclick="cancelSignUp()">
+						VOLTAR
+					</button>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+	<!--===============================================================================================-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/AlertifyJS/1.13.1/alertify.min.js"></script>
+
+	<script src="js/retornar-tela.js"></script>
+
+</body>
+
+</html>
