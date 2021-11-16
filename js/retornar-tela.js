@@ -44,11 +44,20 @@ function validateSingUp() {
 
 }
 
+class InvalidCharacters {
+    constructor(characters) {
+        this.characters = characters;
+    }
+    get invalidCharacters() {
+        return this.characters
+    }
+}
+
 function validateChar(event) {
     var x = event.which || event.keyCode;
-    var caracteres = Object('$&-#@*+');
+    var characters = new InvalidCharacters('$&-#@*+');
     if (x == 38 || x == 36 || x == 45 || x == 35 || x == 64 || x == 42 || x == 43) {
-        alertify.error('Caractere Inválido, não utilizar: ' + caracteres.toString());
+        alertify.error('Caractere Inválido, não utilizar: ' + characters.invalidCharacters.toString());
     }
 
 }
