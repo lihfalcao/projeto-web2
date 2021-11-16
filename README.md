@@ -5,9 +5,11 @@ Link para o protótipo do wireframe pelo Figma modo de pre-visualização: https
 
 Link para o protótipo do wireframe pelo Figma modo navegação: https://www.figma.com/file/hivjpcjDgZcpLn0geVnH9v/Born-to-Read?node-id=4%3A13
 
-#Github Pages
+# Github Pages
 
 https://lihfalcao.github.io/projeto-web2/tela-abertura.html
+
+obs.: passar o mouse em cima da imagem para começar
 
 # Checkist
 
